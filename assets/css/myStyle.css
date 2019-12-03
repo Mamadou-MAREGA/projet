@@ -1,0 +1,9 @@
+.row ul li a{
+	color : blue !important;
+}
+.row ul li{
+	list-style-type: none;
+}
+td .tdLink a i{
+	color: black !important;
+}

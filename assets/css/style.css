@@ -1,0 +1,102 @@
+/**{
+	margin : 0;
+	padding: 0;
+}*/
+header{
+	background-color: rgba(52, 58, 64, 0.9) !important;
+}
+.logo{
+	display: flex;
+}
+.logo a:nth-child(1) {
+	min-width: 60px;
+	max-width: 60px;
+	margin: auto 0;
+	display: flex;
+}
+.logo a:nth-child(2) {
+	color: white;
+	margin: auto 0;
+
+}
+.logo img{
+	width: 100%;
+	margin: auto 0;
+}
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  width: 100%;
+}
+.price{
+  color: grey;
+  font-size: 22px;
+}
+.card button{
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #00FF00;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 15px;
+  overflow: hidden; /*On empeche l'image de dépasser du bloc*/
+}
+.container{
+	margin-top: 20px;
+}
+.backImg{
+	width: 100%;
+	max-height: 80%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+div .dropdown-menu a{
+	color :  black !important;
+}
+.img-fluid{
+	transition: 0.5s;
+}
+.img-fluid:hover{
+	transform: scale(1.2);
+}
+.backImg a{
+	color: white !important;
+}
+img{
+	width: 100%;
+}
+button{
+	transition: 0.5s;
+}
+button:hover{
+	transform: scale(1.2);
+}
+p{
+	font-size: 15px;
+}
+.panier-img{
+	width: 150px;
+}
+.textp{
+
+	font-weight: bold;
+	font-size: 2.5em;
+}
+
+.monFooter{
+	display: flex;
+	justify-content: space-around;
+}
+footer{
+	background: rgba(52, 58, 64, 0.9);
+	/*position:fixed;*/
+	bottom:0;
+	width:100%;
+	padding:5px;
+	height:50px;
+}
